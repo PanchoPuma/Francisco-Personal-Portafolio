@@ -6,11 +6,11 @@
 }
 
 :root {
-    --primary-color: #d93030;
-    --secondary-color: #ada4a4;
-    --tertiary-color: #121212;
-    --quaternary-color: #fafafa;
-    --title-color: #838080;
+    --primary-color: rgba(217, 48, 48, 1);
+    --secondary-color: rgba(173, 164, 164, 1);
+    --tertiary-color: rgba(18, 18, 18, 1);
+    --quaternary-color: rgba(250, 250, 250, 1);
+    --title-color: rgba(131, 128, 128, 1);
 }
 /* General styles end */
 /* Header styles begin*/
@@ -20,10 +20,11 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    /*just in case
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    z-index: 9999;
+    z-index: 9999;*/
 }
 
 header h1 {
@@ -36,7 +37,7 @@ header h1 {
     text-align: right;   
 }
 
-header a {
+header ul li a {
     text-decoration: none;
     color: var(--quaternary-color);
 }
@@ -98,6 +99,7 @@ main {
     padding: 4% 1% 1% 1%;
     background-color: var(--quaternary-color);
 }
+
 .information {
     padding-bottom: 4%;
     width: 95%;
@@ -105,6 +107,7 @@ main {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 .am {
     font-size: 3.2vw;
     border-right: 3px solid var(--primary-color);
@@ -114,6 +117,7 @@ main {
     padding-left: 5%;
     text-align: right;
 }
+
 .about-me {
     font-size: 1.5vw;
     flex: 1 75%;
@@ -135,67 +139,78 @@ main {
 .img-flex-container {
     display: flex;
     flex-wrap: wrap;
-    flex: 2 75%;
+    flex: 1 75%;
     margin-left: 3%;
 }
-
 
 .img-flex-surf{
     width: 100%;
     border: 6px solid var(--secondary-color);
     background-image: url("../images/surf.jpeg");
-    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     background-position: center;
     padding: 20px 0px;
     min-height: 300px;
     margin-bottom: 2%;
     margin-right: 2%;
+    opacity: .8;
 }
 
 .img-flex-led-wall{
     width: 48%;
     border: 6px solid var(--secondary-color);
     background-image: url("../images/led-wall.jpeg");
-    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     background-position: center;
     padding: 20px 0px;
     min-height: 150px;
     margin-bottom: 2%;
     margin-right: 2%;
+    opacity: .8;
 }
 
 .img-flex-calculator{
     width: 48%;
     border: 6px solid var(--secondary-color);
     background-image: url("../images/calculator.jpeg");
-    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     background-position: center;
     padding: 20px 0px;
     min-height: 150px;
     margin-bottom: 2%;
     margin-right: 2%;
+    opacity: .8;
 }
+
 .img-flex-puzzles{
     width: 48%;
     border: 6px solid var(--secondary-color);
     background-image: url("../images/puzzles.jpeg");
-    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     background-position: center;
     padding: 20px 0px;
     min-height: 150px;
     margin-bottom: 2%;
     margin-right: 2%;
+    opacity: .8;
 }
+
 .img-flex-run-buddy{
     width: 48%;
     border: 6px solid var(--secondary-color);
     background-image: url("../images/run-buddy.jpeg");
-    background-size: cover;
+    background-size: 102% 100%;
+    background-repeat: no-repeat;
     background-position: center;
     padding: 20px 0px;
     min-height: 150px;
     margin-bottom: 2%;
     margin-right: 2%;
+    opacity: .8;
 }
 
 .img-flex-info-main {
@@ -217,6 +232,10 @@ main {
     padding: 15px 0px 15px 10px;
     font-size: 1.3vw;
 }
+.img-flex-surf:hover, .img-flex-led-wall:hover, .img-flex-calculator:hover, .img-flex-puzzles:hover, .img-flex-run-buddy:hover {
+    opacity: 1;
+}
+
 
 .c {
     font-size: 3.2vw;
@@ -227,6 +246,7 @@ main {
     padding-left: 2.1%;
     text-align: right;
 }
+
 .contact-info {
     font-size: 2vw;
     flex: 2 75%;
@@ -260,6 +280,7 @@ main {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 /* Main styles end */
 /* Footer  begin */
 
@@ -272,6 +293,7 @@ footer {
     text-align: center;
     font-size: 10px;
 }
+
 footer h4 {
     color: var(--secondary-color);
     font-size: 1.3vw;
