@@ -15,10 +15,10 @@
 /* General styles end */
 /* Header styles begin*/
 header {
-    padding: 20px 35px 20px 0px;
+    padding: 20px 0px 20px 0px;
     background-color: var(--primary-color);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     /*just in case
     position: -webkit-sticky;
@@ -35,15 +35,17 @@ header h1 {
     width: 40%;
     padding: 1% 2% 1% 5%;
     text-align: right;   
-}
-
-header ul li a {
-    text-decoration: none;
-    color: var(--quaternary-color);
+    margin-right: 5%;
 }
 
 header nav {
     margin: 2% 0% 0% 0%;
+    flex: 1 55%;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: var(--quaternary-color);
 }
 
 header nav ul {
@@ -332,13 +334,13 @@ footer h4 {
     .img-flex-info-secondary {
         margin-top: 135px;
     }
+
+    footer h4 {
+        font-size: 2vw;
+    }
 }
 
 @media screen and (max-width: 768px) {
-    
-    header {
-        padding: 20px 0px 20px 0px;
-    }
 
     header h1 {
         font-size: 4vw;
@@ -383,6 +385,10 @@ footer h4 {
         margin-top: 110px;
         font-size: 1.7vw;
     }
+
+    footer h4 {
+        font-size: 2vw;
+    }
    
 }
 @media screen and (max-width: 575px) {
@@ -396,13 +402,11 @@ footer h4 {
     }
 
     header nav ul {
-        justify-content: space-around;
-        margin-left: 80px;
+        margin-left: 5%;
     }
       
     header nav ul li a {
         font-size: 2.8vw;
-        margin-right: 38px;
     }
 
     .hero {
@@ -450,17 +454,28 @@ footer h4 {
 }
 
 @media screen and (max-width: 380px) {
+   
+    
     header h1 {
         font-size: 7vw;
+        
+    }
+
+    header nav {
+        margin: 2% 0% 0% 0%;
+        flex: 0.8 10%;
     }
 
     header nav ul {
-        margin-left: 60px;
+        margin:0px;
+        padding: 0px 10px;
+        
     }
       
     header nav ul li a {
         font-size: 3.5vw;
-        margin-right: 45px;
+        margin-left: 20px;    
+        margin-right: 20px;
         
     }
 
@@ -504,6 +519,10 @@ footer h4 {
         margin-top: 70px;
         font-size: 3vw;
         width: 75%;
+    }
+
+    footer h4 {
+        font-size: 3vw;
     }
 
 }
