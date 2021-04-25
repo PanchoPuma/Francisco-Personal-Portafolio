@@ -1,0 +1,14 @@
+/* General styles beggins */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #d93030;
+    --secondary-color: #ada4a4;
+    --tertiary-color: #121212;
+    --quaternary-color: #fafafa;
+}
+/* General styles ends */
