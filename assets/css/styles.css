@@ -1,4 +1,4 @@
-/* General styles beggins */
+/* General styles begin */
 * {
     margin: 0;
     padding: 0;
@@ -11,4 +11,93 @@
     --tertiary-color: #121212;
     --quaternary-color: #fafafa;
 }
-/* General styles ends */
+/* General styles end */
+
+/* Main styles begin */
+.img-flex-surf{
+    width: 60%;
+    border: 4px solid var(--secondary-color);
+    background-image: url("../images/surf.jpeg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.img-flex-led-wall{
+    width: 30%;
+    border: 4px solid var(--secondary-color);
+    background-image: url("../images/led-wall.jpeg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.img-flex-calculator{
+    width: 30%;
+    border: 4px solid var(--secondary-color);
+    background-image: url("../images/calculator.jpeg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.img-flex-puzzles{
+    width: 30%;
+    border: 4px solid var(--secondary-color);
+    background-image: url("../images/puzzles.jpeg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.img-flex-run-buddy{
+    width: 30%;
+    border: 4px solid var(--secondary-color);
+    background-image: url("../images/run-buddy.jpeg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.img-flex-info-main {
+    width: 20%;
+    margin-top: auto;
+    background-color: var(--secondary-color);
+    color: var(--tertiary-color);
+    text-align: left;
+    padding: 15px 0px 15px 10px;
+    font-size: 1.2vw;
+}
+
+.img-flex-info-secondary {
+    width: 35%;
+    margin-top: auto;
+    background-color: var(--secondary-color);
+    color: var(--tertiary-color);
+    text-align: left;
+    padding: 15px 0px 15px 10px;
+    font-size: 1.3vw;
+}
+
+/* Main styles end */
+
+/* Media query  begin */
+/* Media query  end */
