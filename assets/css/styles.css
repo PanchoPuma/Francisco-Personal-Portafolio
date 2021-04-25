@@ -222,15 +222,43 @@ main {
     font-size: 3.2vw;
     border-right: 3px solid var(--primary-color);
     color: var(--title-color);
-    padding-bottom: 5%;
+    padding-bottom: 3%;
     padding-right: 1%;
     padding-left: 2.1%;
     text-align: right;
 }
 .contact-info {
-        font-size: 1.5vw;
-        flex: 2 75%;
-        margin-left: 3%;
+    font-size: 2vw;
+    flex: 2 75%;
+    margin-left: 3%;
+    padding-top: 5%;
+    padding-right: 2%;
+}
+
+.contact-info ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    list-style: none;
+}
+
+.contact-info ul li a {
+    color: var(--tertiary-color);
+}
+
+.contact-info ul li a:hover {
+    background: var(--secondary-color);
+    color: var(--quaternary-color);
+    border-bottom: 3px solid var(--quaternary-color);
+}
+
+.information:last-child {
+    padding-bottom: 0%;
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 /* Main styles end */
 /* Footer  begin */
@@ -238,7 +266,7 @@ main {
 footer {
     background: var(--quaternary-color);
     width: 100%;
-    padding: 20px 20px;
+    padding: 2% 2%;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -247,7 +275,6 @@ footer {
 footer h4 {
     color: var(--secondary-color);
     font-size: 1.3vw;
-    
 }
 /* Footer  end */
 
