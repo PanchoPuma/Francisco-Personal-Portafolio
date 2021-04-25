@@ -416,11 +416,11 @@ footer h4 {
     }
 
     .subtitle {
-        font-size: 2.2vw;
+        font-size: 2.4vw;
     }
 
     .about-me {
-        font-size: 2.2vw;
+        font-size: 2.4vw;
     }
 
     .img-flex-surf{
@@ -453,7 +453,7 @@ footer h4 {
 
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width:420px) {
    
     
     header h1 {
