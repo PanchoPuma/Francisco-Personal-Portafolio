@@ -302,4 +302,63 @@ footer h4 {
 
 
 /* Media query  begin */
+
+@media screen and (max-width: 980px) {
+    .hero {
+        width: 100%;
+        background-size: 100% 100%;
+        max-height: 260px;
+        padding: 180px 0px 20px 0px;
+    }
+
+    .img-flex-surf{
+        background-size: 100% 100%;
+        min-height: 220px;
+        padding: 0px;
+    }
+
+    .img-flex-run-buddy, .img-flex-led-wall, .img-flex-puzzles, .img-flex-calculator {
+        background-size: 100% 100%;
+        min-height: 220px;
+        padding: 0px;
+    }
+
+    .img-flex-info-main {
+        margin-top: 140px;
+
+    }
+
+    .img-flex-info-secondary {
+        margin-top: 135px;
+    }
+   
+
+
+}
+@media screen and (max-width: 768px) {
+    
+    header {
+        padding: 20px 0px 20px 0px;
+    }
+
+    header h1 {
+        font-size: 3.8vw;
+        width: 35%;
+        padding: 1% 2% 1% 2%; 
+        margin-right: 2.7%;
+    }
+    
+    header nav ul {
+        justify-content: space-around;
+    }
+      
+    header nav ul li a {
+        
+        font-size: 2vw;
+        margin-right: 45px;
+    }
+    
+}
+@media screen and (max-width: 575px) {}
+
 /* Media query  end */
