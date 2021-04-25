@@ -14,7 +14,7 @@
 /* General styles end */
 /* Header styles begin*/
 header {
-    padding: 20px 35px;
+    padding: 20px 35px 20px 0px;
     background-color: var(--primary-color);
     display: flex;
     justify-content: space-between;
@@ -23,6 +23,48 @@ header {
     position: sticky;
     top: 0;
     z-index: 9999;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 3vw;
+    color: var(--tertiary-color);
+    background-color: var(--secondary-color);
+    width: 400px;
+    padding: 10px 0px 10px 35px;
+    text-align: center;   
+}
+
+header a {
+    text-decoration: none;
+    color: var(--quaternary-color);
+}
+
+header nav {
+    margin: 15px 0px 5px 0px;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+  
+header nav ul li a {
+    padding: 10px 10px 0px 10px;
+    font-weight: lighter;
+    font-size: 1.75vw;
+    margin-right: 25px;
+    border-bottom: 3px solid var(--quaternary-color)
+}
+
+header nav ul li a:hover {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border-bottom: 3px solid var(--secondary-color);
+    text-shadow: none;
 }
 /* Header styles end*/
 /* Hero styles begin*/
