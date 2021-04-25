@@ -119,6 +119,7 @@ main {
     flex: 1 75%;
     margin-left: 3%;
     text-align: left;
+    margin-right: 2%;
 }
 
 .w {
@@ -134,7 +135,6 @@ main {
 .img-flex-container {
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-start;
     flex: 2 75%;
     margin-left: 3%;
 }
@@ -142,65 +142,65 @@ main {
 
 .img-flex-surf{
     width: 100%;
-    border: 4px solid var(--secondary-color);
+    border: 6px solid var(--secondary-color);
     background-image: url("../images/surf.jpeg");
     background-size: cover;
     background-position: center;
     padding: 20px 0px;
     min-height: 300px;
-    margin-bottom: 15px;
+    margin-bottom: 2%;
+    margin-right: 2%;
 }
 
 .img-flex-led-wall{
-    width: 30%;
-    border: 4px solid var(--secondary-color);
+    width: 48%;
+    border: 6px solid var(--secondary-color);
     background-image: url("../images/led-wall.jpeg");
     background-size: cover;
     background-position: center;
     padding: 20px 0px;
     min-height: 150px;
-    display: inline-block;
-    margin-bottom: 15px;
-
+    margin-bottom: 2%;
+    margin-right: 2%;
 }
 
 .img-flex-calculator{
-    width: 30%;
-    border: 4px solid var(--secondary-color);
+    width: 48%;
+    border: 6px solid var(--secondary-color);
     background-image: url("../images/calculator.jpeg");
     background-size: cover;
     background-position: center;
     padding: 20px 0px;
     min-height: 150px;
-    margin-bottom: 15px;
-    display: inline-block;
+    margin-bottom: 2%;
+    margin-right: 2%;
 }
 .img-flex-puzzles{
-    width: 30%;
-    border: 4px solid var(--secondary-color);
+    width: 48%;
+    border: 6px solid var(--secondary-color);
     background-image: url("../images/puzzles.jpeg");
     background-size: cover;
     background-position: center;
     padding: 20px 0px;
     min-height: 150px;
-    margin-bottom: 15px;
-    display: inline-block;
+    margin-bottom: 2%;
+    margin-right: 2%;
 }
 .img-flex-run-buddy{
-    width: 30%;
-    border: 4px solid var(--secondary-color);
+    width: 48%;
+    border: 6px solid var(--secondary-color);
     background-image: url("../images/run-buddy.jpeg");
     background-size: cover;
     background-position: center;
     padding: 20px 0px;
     min-height: 150px;
-    margin-bottom: 15px;
-    display: inline-block;
+    margin-bottom: 2%;
+    margin-right: 2%;
 }
 
 .img-flex-info-main {
     width: 20%;
-    margin-top: 65%;
+    margin-top: 220px;
     background-color: var(--secondary-color);
     color: var(--tertiary-color);
     text-align: left;
@@ -210,7 +210,7 @@ main {
 
 .img-flex-info-secondary {
     width: 35%;
-    margin-top: 65%;
+    margin-top: 110px;
     background-color: var(--secondary-color);
     color: var(--tertiary-color);
     text-align: left;
@@ -224,7 +224,7 @@ main {
     color: var(--title-color);
     padding-bottom: 5%;
     padding-right: 1%;
-    padding-left: 1.9%;
+    padding-left: 2.1%;
     text-align: right;
 }
 .contact-info {
