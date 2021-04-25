@@ -331,10 +331,8 @@ footer h4 {
     .img-flex-info-secondary {
         margin-top: 135px;
     }
-   
-
-
 }
+
 @media screen and (max-width: 768px) {
     
     header {
@@ -342,7 +340,7 @@ footer h4 {
     }
 
     header h1 {
-        font-size: 3.8vw;
+        font-size: 4vw;
         width: 35%;
         padding: 1% 2% 1% 2%; 
         margin-right: 2.7%;
@@ -353,11 +351,42 @@ footer h4 {
     }
       
     header nav ul li a {
-        
-        font-size: 2vw;
-        margin-right: 45px;
+        font-size: 2.2vw;
+        margin-right: 38px;
     }
-    
+
+    .hero {
+        max-height: 240px;
+        padding: 150px 0px 20px 0px;
+    }
+
+    .subtitle {
+        font-size: 1.8vw;
+    }
+
+    .about-me {
+        font-size: 1.95vw;
+    }
+
+    .img-flex-surf{
+        min-height: 190px;
+    }
+
+    .img-flex-run-buddy, .img-flex-led-wall, .img-flex-puzzles, .img-flex-calculator {
+        min-height: 190px;
+    }
+
+    .img-flex-info-main {
+        margin-top: 110px;
+        font-size: 1.75vw;
+
+    }
+
+    .img-flex-info-secondary {
+        margin-top: 110px;
+        font-size: 1.7vw;
+    }
+   
 }
 @media screen and (max-width: 575px) {}
 
