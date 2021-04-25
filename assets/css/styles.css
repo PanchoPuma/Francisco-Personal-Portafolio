@@ -12,7 +12,41 @@
     --quaternary-color: #fafafa;
 }
 /* General styles end */
+/* Header styles begin*/
+header {
+    padding: 20px 35px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+/* Header styles end*/
+/* Hero styles begin*/
+.hero {
+    min-height: 300px;
+    background-image: url("../images/Francisco-photos.jpeg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+}
 
+.subtitle {
+    width: 30%;
+    margin-top: auto;
+    margin-left: 66.4%;
+    background-color: var(--secondary-color);
+    color: var(--tertiary-color);
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 1.7vw;
+}
+/* Hero styles end*/
 /* Main styles begin */
 .img-flex-surf{
     width: 60%;
@@ -20,7 +54,7 @@
     background-image: url("../images/surf.jpeg");
     background-size: cover;
     background-position: center;
-    padding: 20px 0;
+    padding: 20px 0px;
     min-height: 300px;
     display: flex;
     flex-direction: column;
@@ -33,7 +67,7 @@
     background-image: url("../images/led-wall.jpeg");
     background-size: cover;
     background-position: center;
-    padding: 20px 0;
+    padding: 20px 0px;
     min-height: 150px;
     display: flex;
     flex-direction: column;
@@ -46,7 +80,7 @@
     background-image: url("../images/calculator.jpeg");
     background-size: cover;
     background-position: center;
-    padding: 20px 0;
+    padding: 20px 0px;
     min-height: 150px;
     display: flex;
     flex-direction: column;
@@ -58,7 +92,7 @@
     background-image: url("../images/puzzles.jpeg");
     background-size: cover;
     background-position: center;
-    padding: 20px 0;
+    padding: 20px 0px;
     min-height: 150px;
     display: flex;
     flex-direction: column;
@@ -70,7 +104,7 @@
     background-image: url("../images/run-buddy.jpeg");
     background-size: cover;
     background-position: center;
-    padding: 20px 0;
+    padding: 20px 0px;
     min-height: 150px;
     display: flex;
     flex-direction: column;
