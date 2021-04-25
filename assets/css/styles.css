@@ -69,13 +69,15 @@ header nav ul li a:hover {
 /* Header styles end*/
 /* Hero styles begin*/
 .hero {
-    min-height: 300px;
+    
     background-image: url("../images/Francisco-photos.jpeg");
     background-size: cover;
     background-position: center;
-    padding: 20px 0px;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-position: 10%; 
+    padding: 230px 0px 20px 0px;
 }
 
 .subtitle {
@@ -86,7 +88,7 @@ header nav ul li a:hover {
     color: var(--tertiary-color);
     text-align: center;
     padding: 10px 0px;
-    font-size: 1.7vw;
+    font-size: 1.5vw;
 }
 /* Hero styles end*/
 /* Main styles begin */
