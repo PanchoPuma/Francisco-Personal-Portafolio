@@ -7,7 +7,7 @@ This repository contains a personal portafolio built from scratch. It showcases 
 
 ## Screenshot
 
-![ScreenShot](/assets/images/horiseon-mock-up.jpg)
+![ScreenShot](/assets/images/sample.jpeg)
 
 ## Link to deployed application
 
