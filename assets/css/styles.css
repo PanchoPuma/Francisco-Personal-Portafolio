@@ -75,13 +75,15 @@ header nav ul li a:hover {
 .hero {
     
     background-image: url("../images/Francisco-photos.jpeg");
-    background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     background-position: 10%; 
     padding: 230px 0px 20px 0px;
+    width: 100%;
+    background-size: 100% 100%;
+    max-height: 500px;
 
 }
 
@@ -308,8 +310,6 @@ footer h4 {
 
 @media screen and (max-width: 980px) {
     .hero {
-        width: 100%;
-        background-size: 100% 100%;
         max-height: 260px;
         padding: 180px 0px 20px 0px;
     }
