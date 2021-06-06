@@ -196,10 +196,10 @@ main {
     opacity: .8;
 }
 
-.img-flex-puzzles{
+.img-flex-whatishappening{
     width: 48%;
     border: 6px solid var(--secondary-color);
-    background-image: url("../images/puzzles.jpeg");
+    background-image: url("../images/Whatishappening.jpeg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
