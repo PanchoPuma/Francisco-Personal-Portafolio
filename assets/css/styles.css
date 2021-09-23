@@ -182,10 +182,10 @@ main {
     opacity: .8;
 }
 
-.img-flex-calculator{
+.img-flex-chat{
     width: 48%;
     border: 6px solid var(--secondary-color);
-    background-image: url("../images/calculator.jpeg");
+    background-image: url("../images/chat.jpeg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
